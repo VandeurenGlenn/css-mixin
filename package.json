@@ -1,12 +1,24 @@
 {
-  "name": "css-mixins",
+  "name": "@vandeurenglenn/css-mixins",
   "description": "Css mixins",
   "version": "1.0.0",
   "type": "module",
   "exports": {
     ".": {
       "import": "./exports/mixin.js",
-      "types": "./exports/mixin.d.ts"
+      "types": "./exports/types/mixin.d.ts"
+    },
+    "./utils": {
+      "import": "./exports/utils.js",
+      "types": "./exports/types/utils/utils.d.ts"
+    },
+    "./apply-classes": {
+      "import": "./exports/apply-classes.js",
+      "types": "./exports/types/utils/apply-classes.d.ts"
+    },
+    "./apply-mixins": {
+      "import": "./exports/apply-mixins.js",
+      "types": "./exports/types/utils/apply-mixins.d.ts"
     }
   },
   "scripts": {

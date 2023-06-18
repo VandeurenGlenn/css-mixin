@@ -6,6 +6,7 @@
     "declaration": true,
     "moduleResolution": "nodenext",
     "allowSyntheticDefaultImports": true,
+    "declarationDir": "exports/types",
     "emitDeclarationOnly": true,
     "types": [
       "lit"
