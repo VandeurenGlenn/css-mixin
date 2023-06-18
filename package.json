@@ -1,7 +1,7 @@
 {
   "name": "@vandeurenglenn/css-mixins",
   "description": "Css mixins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "exports": {
     ".": {
