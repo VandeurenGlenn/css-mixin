@@ -1,0 +1,33 @@
+{
+  "name": "css-mixins",
+  "description": "Css mixins",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./exports/mixin.js",
+      "types": "./exports/mixin.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/css-mixin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/css-mixin/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/css-mixin#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.1",
+    "lit": "^2.7.5",
+    "rollup": "^3.25.1",
+    "tslib": "^2.5.3"
+  }
+}
