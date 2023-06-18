@@ -1,4 +1,6 @@
-export const classes = {
+import { CSSMixins } from "../types.js";
+
+export const classes: CSSMixins = {
   'apply(--css-row)': `.row {
        mixin(--css-row)
      }

@@ -1,4 +1,6 @@
-export const mixins = {
+import { CSSMixins } from "../types.js";
+
+export const mixins: CSSMixins = {
   'mixin(--css-row)': `display: flex;
         flex-direction: row;
   `,
