@@ -24,8 +24,9 @@ export default (base) => {
     }
     
     async #init() {
-      // TODO: Implement better way to check if Lit is used
-      if (this.updateComplete) await this.updateComplete
+      if ('_$litElement$' in this.constructor) {
+        if (this.updateComplete) await this.updateComplete
+      }
       this.style.innerHTML = await apply(this.#style.innerHTML)
     }
   }
