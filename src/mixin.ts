@@ -26,8 +26,8 @@ export default (base) => {
     async #init() {
       if ('_$litElement$' in this.constructor) {
         if (this.updateComplete) await this.updateComplete
-        this.style.innerHTML = await apply(this.#style.innerHTML)
       }
+      this.style.innerHTML = await apply(this.#style.innerHTML)
     }
   }
 }
